@@ -26,7 +26,8 @@ $(function () {
         localStorage.setItem('language', language);
 
         // let site = 'http://127.0.0.1:5500/';
-        let site = 'https://amazoniabingo.com/';
+        let site = '/index.html';
+        // let site = 'https://amazoniabingo.com/';
 
         if (language == 'pt') {
             language = '';

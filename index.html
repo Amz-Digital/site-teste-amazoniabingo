@@ -29,9 +29,11 @@
 
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
+        <script src="/js/cookie.js"></script>
+        <link rel="stylesheet" href="/css/cookie.css">
     </head>
 
-    <body>
+    <body onload="mostrarCookie()">
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZ29WQ3"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -177,7 +179,17 @@
                     </div>
                 </div>   
             </div>
-        </section>        
+        </section> 
+        
+        <div id="cookie" class="text-center align-middle" hidden>
+            <section class="cookie" id="btn-cookie">
+                <p class="text-center align-middle">
+                    Utilizamos Cookies para fornecer uma melhor experiência para nossos usuários, consulte nossa <a href="terms-of-cookies-policy.html">Política de Cookies</a>.
+                </p>
+                <button type="button" class="aceitar-cookies align-middle" aria-label="Fechar" onclick="aceitarCookie(true)">Eu aceito</button>
+            </section>
+        </div> 
+         
         
         <!--<section id="counter" class=" back-light mt-5">
             <div class="container">
@@ -1453,11 +1465,12 @@
                         
                         <div class="col-12  acesse-conheca" style="min-height:207px; max-height:207px;">
                             <div class="heading justify-content-center">
-                                <h2>Acesse</h2>
+                                <h2>SIGA NAS REDES SOCIAIS</h2>
                             </div>
                             <div class="fb-page" data-href="https://www.facebook.com/amazoniabingo" data-tabs="timeline, messages" data-width="400" data-height="550" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
                                 <blockquote cite="https://www.facebook.com/amazoniabingo" class="fb-xfbml-parse-ignore">
                                     <a href="https://www.facebook.com/amazoniabingo">Amazonia Bingo - Casino Social - Slots &amp; Video Bingo Grátis</a>
+                                    
                                 </blockquote>
                             </div>
                             <ul class="social-media-box list-unstyled list-inline " p>
@@ -1530,14 +1543,14 @@
                     <div class="col-md-12 aviso">
                         <h2 class="warning_footer">Aviso</h2>
                             <ul>
-                                <li><p>- The games are intended for an adult audience</p></li>
-                                <li><p>- The games do not offer opportunities with real money and opportunities to earn real money or prizes.</p>
-                                <li><p>- Wins made while gambling in social casino games can't be exchanged into real money or real rewards.</p>
-                                <li><p>- The practice of success in social casino games does not imply future success in games of chance with real money.</p>
-                                <li><p>- Our games are for entertainment only, all points in the game stay in the game and all game points have no cash value. Although in-game currency can be purchased for real money or won during gameplay, none of the items in the game have any cash value.</p>
-                                <li><p>- Read our Terms of Use, Privacy Policy, and other important information.</p>
-                                <li><p>- If you need help or support, please contact us at: info@amazoniabingo.com</p>
-                                <li><p>- You can delete your account at login menu in the game</p>
+                                <p>- Nossos jogos são apenas para entretenimento, todos os pontos do jogo permanecem no jogo e todos seus pontos não têm valor em dinheiro. Embora a moeda do jogo possa ser comprada com dinheiro real ou ganha durante o jogo, nenhum dos itens do jogo tem valor monetário.</p>
+                                <p>- Os ganhos obtidos ao apostar em jogos de cassino sociais não podem ser trocados por dinheiro real ou recompensas reais.</p>
+                                <p>- Os jogos não oferecem apostas em dinheiro real e oportunidades de ganhar dinheiro real ou prêmios.</p>
+                                <p>- Ter sucesso em jogos de cassino social não significa ter sucesso futuro em jogos com dinheiro real.</p>
+                                <p>- Se você precisar de ajuda ou suporte, entre em contato conosco: info@amazoniabingo.com.</p>
+                                <p>- Leia nossos Termos de Uso, Política de Privacidade e outras informações importantes.</p>
+                                <p>- Você pode excluir sua conta no menu de login no jogo.</p>
+                                <p>- Os jogos são destinados ao público adulto.</p>
                             </ul>
                     </div>
                 </div>                

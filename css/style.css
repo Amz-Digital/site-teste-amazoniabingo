@@ -265,7 +265,7 @@ body::-webkit-scrollbar {
 }
 
 .btn-language a img {
-    height: 32px;
+    height: 40px;
     border-radius: 50%;
 }
 
@@ -667,10 +667,10 @@ ul.social-media-box li a,
     cursor: pointer;
     z-index: 0;
 }
-
+/* rosa azul roxo */
 .btn-glow:before {
     content: '';
-    background: linear-gradient(45deg, #AD0DFF, #AB0CE8, #7300FF, #330CE8, #0D23FF, #330CE8, #7300FF, #AB0CE8, #AD0DFF);
+    background: linear-gradient(45deg, #29ff0d, #6fe80c, #c8ff00, #ade80c, #dbff0d, #ade80c, #00ff40, #0ce87a, #0dffb6);
     position: absolute;
     top: -2px;
     left: -2px;
@@ -958,7 +958,7 @@ nav.navbar .container {
 }
 
 .full_nav .nav > li > a {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     position: relative;
     /* line-height: 24px; */
     font-weight: 600;
@@ -2264,8 +2264,7 @@ nav.navbar .container {
 }
 
 .navbar .social-media-box img {
-    max-width: 42px;
-    max-height: 42px;
+    max-height: 50px;
 }
 
 .contact-app {
@@ -3053,7 +3052,7 @@ ul.social-media-box li a {
 }
 
 ul.social-media-box li a img {
-    max-width: 32px;
+    max-width: 40px;
 }
 
 
