@@ -29,8 +29,10 @@
 
         <link href="/css/style.css" rel="stylesheet">
         <link href="/css/responsive.css" rel="stylesheet">
+        <script src="/js/cookie.js"></script>
+        <link rel="stylesheet" href="/css/cookie.css">
     </head>
-    <body>
+    <body onload="mostrarCookie()">
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZ29WQ3"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -139,6 +141,16 @@
                 </div>   
             </div>
         </section>   
+
+        
+        <div id="cookie" class="text-center align-middle" hidden>
+            <section class="cookie" id="btn-cookie">
+                <p class="text-center align-middle">
+                    Utilizamos Cookies para ofrecer una mejor experiencia a nuestros usuarios, consulta nuestra <a href="terms-of-cookies-policy.html">Política de Cookies</a>.
+                </p>
+                <button type="button" class="aceitar-cookies align-middle" aria-label="Fechar" onclick="aceitarCookie(true)">Acepto</button>
+            </section>
+        </div> 
 
         <section id="control" class="control back-light section">
             <div class="container">
@@ -589,14 +601,14 @@
                     <div class="col-md-12 aviso">
                         <h2 class="warning_footer">Advertencia</h2>
                             <ul>
-                                <p>Nuestros juegos son solo para entretenimiento, todos los puntos del juego permanecen en el juego y todos los puntos del juego no tienen valor en efectivo. Aunque la moneda del juego se puede comprar con dinero real o ganar durante el juego, ninguno de los elementos del juego tiene valor en efectivo</p>
-                                <p>Las ganancias obtenidas al apostar en juegos de casino sociales no se pueden cambiar por dinero real o recompensas reales</p>
-                                <p>La práctica del éxito en los juegos de casino social no implica el éxito futuro en los juegos de azar con dinero real</p>
-                                <p>Los juegos no ofrecen oportunidades con dinero real y oportunidades de ganar dinero real o premios</p>
-                                <p>Lea nuestros Términos de uso, Política de privacidad y otra información importante</p>
-                                <p>Puedes eliminar tu cuenta en el menú de inicio de sesión en el juego</p>
-                                <p>Si necesita ayuda o soporte, contáctenos en: info@amazoniabingo.com</p>
-                                <p>Los juegos están destinados a un público adulto</p>
+                                <p>- Nuestros juegos son solo para entretenimiento, todos los puntos del juego permanecen en el juego y todos los puntos del juego no tienen valor en efectivo. Aunque la moneda del juego se puede comprar con dinero real o ganar durante el juego, ninguno de los elementos del juego tiene valor en efectivo.</p>
+                                <p>- Las ganancias obtenidas al apostar en juegos de casino sociales no se pueden cambiar por dinero real o recompensas reales.</p>
+                                <p>- La práctica del éxito en los juegos de casino social no implica el éxito futuro en los juegos de azar con dinero real.</p>
+                                <p>- Los juegos no ofrecen oportunidades con dinero real y oportunidades de ganar dinero real o premios.</p>
+                                <p>- Lea nuestros Términos de uso, Política de privacidad y otra información importante.</p>
+                                <p>- Puedes eliminar tu cuenta en el menú de inicio de sesión en el juego.</p>
+                                <p>- Si necesita ayuda o soporte, contáctenos en: info@amazoniabingo.com.</p>
+                                <p>- Los juegos están destinados a un público adulto.</p>
                             </ul>
                     </div>
                 </div>
@@ -632,13 +644,16 @@
                     <div class="modal-body">
                         <div class="select-language">
                             <button type="button" class="btn-change-language" data-language='pt'>
-                                <img src="/images/flag/brazil.png">
+                                <a href="/index.html"><img src="/images/flag/brazil.png"></a>
+                                <!-- <img src="images/flag/brazil.png"> -->
                             </button>
                             <button type="button" class="btn-change-language" data-language='es'>
-                                <img src="/images/flag/spain.png">
+                                <a href="/es/index.html"><img src="/images/flag/spain.png"></a>
+                                <!-- <img src="images/flag/spain.png"> -->
                             </button>
                             <button type="button" class="btn-change-language" data-language='en'>
-                                <img src="/images/flag/usa.png">
+                                <a href="/en/index.html"><img src="/images/flag/usa.png"></a>
+                                <!-- <img src="images/flag/usa.png"> -->
                             </button>
                         </div>                                            
                     </div>

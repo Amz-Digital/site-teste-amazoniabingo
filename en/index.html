@@ -29,8 +29,10 @@
 
         <link href="/css/style.css" rel="stylesheet">
         <link href="/css/responsive.css" rel="stylesheet">
+        <script src="/js/cookie.js"></script>
+        <link rel="stylesheet" href="/css/cookie.css">
     </head>
-    <body>
+    <body onload="mostrarCookie()">
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZ29WQ3"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -139,6 +141,15 @@
                 </div>   
             </div>
         </section>   
+
+        <div id="cookie" class="text-center align-middle" hidden>
+            <section class="cookie" id="btn-cookie">
+                <p class="text-center align-middle">
+                    We use cookies to provide a better experience for our users, please see our <a href="terms-of-cookies-policy.html">Cookie Policy</a>.
+                </p>
+                <button type="button" class="aceitar-cookies align-middle" aria-label="Fechar" onclick="aceitarCookie(true)">I agree</button>
+            </section>
+        </div>
 
         <section id="control" class="control back-light section">
             <div class="container">
@@ -595,14 +606,14 @@
                     <div class="col-md-12 aviso">
                         <h2 class="warning_footer">Warning</h2>
                             <ul>
-                                <p>Our games are for entertainment only, all points in the game stay in the game and all game points have no cash value. Although in-game currency can be purchased for real money or won during gameplay, none of the items in the game have any cash value</p>
-                                <p>The practice of success in social casino games does not imply future success in games of chance with real money</p>
-                                <p>Wins made while gambling in social casino games can't be exchanged into real money or real rewards</p>
-                                <p>The games do not offer opportunities with real money and opportunities to earn real money or prizes</p>
-                                <p>If you need help or support, please contact us at: info@amazoniabingo.com</p>
-                                <p>Read our Terms of Use, Privacy Policy, and other important information</p>
-                                <p>You can delete your account at login menu in the game</p>
-                                <p>The games are intended for an adult audience</p></li>
+                                <p>- Our games are for entertainment only, all points in the game stay in the game and all game points have no cash value. Although in-game currency can be purchased for real money or won during gameplay, none of the items in the game have any cash value.</p>
+                                <p>- The practice of success in social casino games does not imply future success in games of chance with real money.</p>
+                                <p>- Wins made while gambling in social casino games can't be exchanged into real money or real rewards.</p>
+                                <p>- The games do not offer opportunities with real money and opportunities to earn real money or prizes.</p>
+                                <p>- If you need help or support, please contact us at: info@amazoniabingo.com.</p>
+                                <p>- Read our Terms of Use, Privacy Policy, and other important information.</p>
+                                <p>- You can delete your account at login menu in the game.</p>
+                                <p>- The games are intended for an adult audience.</p></li>
                             </ul>
                     </div>
                 </div>
@@ -638,13 +649,16 @@
                     <div class="modal-body">
                         <div class="select-language">
                             <button type="button" class="btn-change-language" data-language='pt'>
-                                <img src="/images/flag/brazil.png">
+                                <a href="/index.html"><img src="/images/flag/brazil.png"></a>
+                                <!-- <img src="images/flag/brazil.png"> -->
                             </button>
                             <button type="button" class="btn-change-language" data-language='es'>
-                                <img src="/images/flag/spain.png">
+                                <a href="/es/index.html"><img src="/images/flag/spain.png"></a>
+                                <!-- <img src="images/flag/spain.png"> -->
                             </button>
                             <button type="button" class="btn-change-language" data-language='en'>
-                                <img src="/images/flag/usa.png">
+                                <a href="/en/index.html"><img src="/images/flag/usa.png"></a>
+                                <!-- <img src="images/flag/usa.png"> -->
                             </button>
                         </div>                                            
                     </div>

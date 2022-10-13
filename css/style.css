@@ -289,6 +289,11 @@ body::-webkit-scrollbar {
     gap: 15px;
 }
 
+.language-selector-modal .modal-dialog .select-language button{
+cursor:pointer;
+
+}
+
 .modal-content {
     filter: drop-shadow(0 0px 20px rgba(101, 40, 193, 0.5));
     border-radius: 2rem;
