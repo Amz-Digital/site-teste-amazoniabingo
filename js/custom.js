@@ -26,7 +26,7 @@ $(function () {
         localStorage.setItem('language', language);
 
         // let site = 'http://127.0.0.1:5500/';
-        let site = '/index.html';
+        let site = '';
         // let site = 'https://amazoniabingo.com/';
 
         if (language == 'pt') {
@@ -37,8 +37,14 @@ $(function () {
 
         let page = window.location.pathname.split('/').pop();
         let params = window.location.search;
-
-        window.location.replace(site + language + page + params);
+        let mainurl = site + language + page + params;
+        console.log(mainurl)
+        if (location.pathname == '/es/index.html' || location.pathname == '/en/index.html'){
+            window.location.replace('/index.html');
+        }else{
+            window.location.replace(mainurl);
+        }
+   
     }
 
     $('.btn-change-language').click(function () {

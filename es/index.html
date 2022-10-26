@@ -31,8 +31,10 @@
         <link href="/css/responsive.css" rel="stylesheet">
         <script src="/js/cookie.js"></script>
         <link rel="stylesheet" href="/css/cookie.css">
+        <script src="/js/detect-lang.js"></script>
+        <script src="/js/language_button.js"></script>
     </head>
-    <body onload="mostrarCookie()">
+    <body onload="mostrarCookie();changeLang();">
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZ29WQ3"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -643,15 +645,15 @@
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="select-language">
-                            <button type="button" class="btn-change-language" data-language='pt'>
+                            <button type="button" class="btn-change-language" data-language='pt' onclick="mostrarLang2()">
                                 <a href="/index.html"><img src="/images/flag/brazil.png"></a>
                                 <!-- <img src="images/flag/brazil.png"> -->
                             </button>
-                            <button type="button" class="btn-change-language" data-language='es'>
+                            <button type="button" class="btn-change-language" data-language='es' onclick="mostrarLang2()">
                                 <a href="/es/index.html"><img src="/images/flag/spain.png"></a>
                                 <!-- <img src="images/flag/spain.png"> -->
                             </button>
-                            <button type="button" class="btn-change-language" data-language='en'>
+                            <button type="button" class="btn-change-language" data-language='en' onclick="mostrarLang2()">
                                 <a href="/en/index.html"><img src="/images/flag/usa.png"></a>
                                 <!-- <img src="images/flag/usa.png"> -->
                             </button>
