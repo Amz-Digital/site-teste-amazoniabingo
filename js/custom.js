@@ -47,44 +47,44 @@ $(function () {
 
         switch (location.pathname){
             case '/es/index.html':
-                window.location.replace('/index.html');
+                window.location.replace('/es/index.html');
                 break;
             case '/en/index.html':
-                window.location.replace('/index.html');
+                window.location.replace('/en/index.html');
                 break;
 
             // ======================================
             case '/es/terms-of-privacy-policy.html':
-                window.location.replace('/terms-of-privacy-policy.html');
+                window.location.replace('/es/terms-of-privacy-policy.html');
                 break;
             case '/en/terms-of-privacy-policy.html':
-                window.location.replace('/terms-of-privacy-policy.html');
+                window.location.replace('/en/terms-of-privacy-policy.html');
                 break;
 
             // ======================================
             case '/es/responsible-game.html':
-                window.location.replace('/responsible-game.html');
+                window.location.replace('/es/responsible-game.html');
                 break;
             case '/en/responsible-game.html':
-                window.location.replace('/responsible-game.html');
+                window.location.replace('/en/responsible-game.html');
                 break;
 
             // ======================================
             case '/es/terms-of-cookies-policy.html':
-                window.location.replace('/terms-of-cookies-policy.html');
+                window.location.replace('/es/terms-of-cookies-policy.html');
                 break;
             case '/en/terms-of-cookies-policy.html':
-                window.location.replace('/terms-of-cookies-policy.html');
+                window.location.replace('/en/terms-of-cookies-policy.html');
                 break;
             
             // ======================================
             case '/es/terms-of-service.html':
-                window.location.replace('/terms-of-service.html');
+                window.location.replace('/es/terms-of-service.html');
                 break;
             case '/en/terms-of-service.html':
-                window.location.replace('/terms-of-service.html');
+                window.location.replace('/en/terms-of-service.html');
                 break;
-                
+
             // ======================================
             default:
                 window.location.replace(mainurl);
