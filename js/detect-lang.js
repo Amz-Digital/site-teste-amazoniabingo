@@ -42,7 +42,7 @@ function changeLang()
     }
     else
     {
-      // window.location.replace('/index.html');
+      window.location.replace('/en/index.html');
       sessionStorage.setItem("alreadyChangeLang","true");
       // console.log("linguagem desconhecida, encaminhando para en");
     }
